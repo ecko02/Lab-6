@@ -1,0 +1,176 @@
+
+.body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .jumbotron {
+    background: #13124F;
+    color: #eeeeee;
+    border-radius: 0px;
+    border: 0px;
+    font-family: "Lato", sans-serif;
+  }
+  .box{
+    background: #13124F;
+    color: #eeeeee;
+    text-align: justify;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+  }
+ 
+  
+  .btn-primary {
+    background: #F61067;
+    border-radius: 0px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  .btn-primary:hover {
+    background: #2ad392;
+  }
+  
+  
+  .navbar-default {
+    background: #352B5A;
+    margin-bottom: -5px;
+    border-radius: 0px;
+    border: 0px;
+  }
+  
+  .panel {
+    border-radius: 0px;
+    border: 0px;
+  }
+  
+  .msg {
+    background: #F61067;
+    color: #eeeeee;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+  }
+  
+  .msg:hover {
+    background: #3fa9f5;
+  }
+  
+  .badge {
+    background: #13124F;
+  }
+  
+  .box1 {
+    background: #13124F;
+    coLor: #eeeeee;
+    text-align: center;
+  }
+  
+  .panel-heading {
+    background: #9090A5;
+    border-radius: 0px;
+    border: 0px;
+  }
+  
+  .btn-side {
+    width: 245px;
+    height: 40px;
+    
+  
+  }
+  
+  
+  .list-group-item {
+    background: #13124F;
+    border: 0px;
+  }
+  
+  .panel-footer {
+    background: #352B5A;
+    
+  }
+  .panel-footer .a{
+    color: #eeeeee;
+  }
+
+  
+  .logo {
+    width: 140px;
+    margin-top: -12px;
+  }
+  
+  .form-control {
+    background: #352B5A;
+    border-radius: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+  
+  .nope {
+    background: #eeeeee;
+    margin-left: 10px;
+    width: 100px;
+    color: #2ad392;
+    border-color: #2ad392;
+  }
+  
+  .btn-vote {
+  width: 170px;
+    height: 40px;
+  }
+  
+  .progress {
+    border-radius: 0px;
+  }
+  
+  .progress-bar-success {
+    background: #F61067;
+    height: 20px;
+  }
+  
+  .progress-bar-danger {
+    background: #2ad392;
+    height: 20px;
+  }
+  
+  .alert-info {
+    background: #9090A5;
+    border-radius: 0px;
+    border: 0px;
+    color: #eeeeee;
+    margin-top: 10px;
+  }
+  
+  footer {
+    background: #13124F;
+    margin: 0;
+    padding: 5px;
+    color: #eeeeee;
+    position: relative;
+  }
+div.btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+  @media screen and (max-width:800px){
+    .container-fluid   #col-xs-6 {
+      display: flex;
+      width: 100%;
+      padding: 0;
+    }
+    @media screen and (max-width:800px){
+      .col-xs-6 #col-md-4 {
+         
+        display: flex;
+        
+        padding: 0;
+      }
+      
+    }
+   
+    
+  }
+ 
